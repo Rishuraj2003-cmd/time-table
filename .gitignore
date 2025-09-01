@@ -1,4 +1,31 @@
-node_modules/
-.env
+# Node modules
+/node_modules
+# Gradle files
+.gradle/
+build/
+out/
+*.iml
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+*.iml
+captures/
+.externalNativeBuild/
+
+# VS Code
+.vscode/
+
+# System files
 .DS_Store
-*.log
+Thumbs.db
+
+# Caches
+.cache/
+npm-debug.log*
+yarn-error.log*
+
+# Other temp files
+*.swp
+*.tmp
